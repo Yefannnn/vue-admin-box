@@ -28,7 +28,7 @@ const alias: Record<string, string> = {
 export default defineConfig({ mode }: ConfigEnv): UserConfig => {
   const prodMock = true;
   return {
-    base: './',
+    base: '/',
     resolve: {
       alias
     },
